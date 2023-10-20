@@ -1,4 +1,13 @@
 /** @type { import('prettier').Config } */
-const prettierConfig = {}
+const prettierConfig = {
+    semi: false,
+    singleQuote: true,
+    trailingComma: 'all',
+    arrowParens: 'avoid',
+    printWidth: 120,
+    tabWidth: 4,
+    useTabs: false,
+    bracketSpacing: true,
+}
 
-export default prettierConfig
+module.exports = prettierConfig
